@@ -1,0 +1,12 @@
+c:\users\cyrus\documents\visual studio 2010\Projects\IDsystem\IDsystem\bin\Debug\IDsystem.exe
+c:\users\cyrus\documents\visual studio 2010\Projects\IDsystem\IDsystem\bin\Debug\IDsystem.pdb
+c:\users\cyrus\documents\visual studio 2010\Projects\IDsystem\IDsystem\bin\Debug\IDsystem.xml
+c:\users\cyrus\documents\visual studio 2010\Projects\IDsystem\IDsystem\obj\x86\Debug\IDsystem.Form1.resources
+c:\users\cyrus\documents\visual studio 2010\Projects\IDsystem\IDsystem\obj\x86\Debug\IDsystem.Resources.resources
+c:\users\cyrus\documents\visual studio 2010\Projects\IDsystem\IDsystem\obj\x86\Debug\IDsystem.vbproj.GenerateResource.Cache
+c:\users\cyrus\documents\visual studio 2010\Projects\IDsystem\IDsystem\obj\x86\Debug\IDsystem.exe
+c:\users\cyrus\documents\visual studio 2010\Projects\IDsystem\IDsystem\obj\x86\Debug\IDsystem.xml
+c:\users\cyrus\documents\visual studio 2010\Projects\IDsystem\IDsystem\obj\x86\Debug\IDsystem.pdb
+C:\Users\Cyrus\documents\visual studio 2010\Projects\IDsystem\IDsystem\bin\Debug\messagingtoolkit.barcode.dll
+C:\Users\Cyrus\documents\visual studio 2010\Projects\IDsystem\IDsystem\bin\Debug\MessagingToolkit.QRCode.dll
+C:\Users\Cyrus\documents\visual studio 2010\Projects\IDsystem\IDsystem\obj\x86\Debug\IDsystem.vbprojResolveAssemblyReference.cache
