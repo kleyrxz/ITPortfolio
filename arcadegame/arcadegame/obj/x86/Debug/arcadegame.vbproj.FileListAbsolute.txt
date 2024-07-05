@@ -1,0 +1,14 @@
+c:\users\cyrus\documents\visual studio 2010\Projects\arcadegame\arcadegame\bin\Debug\arcadegame.exe
+c:\users\cyrus\documents\visual studio 2010\Projects\arcadegame\arcadegame\bin\Debug\arcadegame.pdb
+c:\users\cyrus\documents\visual studio 2010\Projects\arcadegame\arcadegame\bin\Debug\arcadegame.xml
+c:\users\cyrus\documents\visual studio 2010\Projects\arcadegame\arcadegame\obj\x86\Debug\arcadegame.Form1.resources
+c:\users\cyrus\documents\visual studio 2010\Projects\arcadegame\arcadegame\obj\x86\Debug\arcadegame.Resources.resources
+c:\users\cyrus\documents\visual studio 2010\Projects\arcadegame\arcadegame\obj\x86\Debug\arcadegame.vbproj.GenerateResource.Cache
+c:\users\cyrus\documents\visual studio 2010\Projects\arcadegame\arcadegame\obj\x86\Debug\arcadegame.exe
+c:\users\cyrus\documents\visual studio 2010\Projects\arcadegame\arcadegame\obj\x86\Debug\arcadegame.xml
+c:\users\cyrus\documents\visual studio 2010\Projects\arcadegame\arcadegame\obj\x86\Debug\arcadegame.pdb
+c:\users\cyrus\documents\visual studio 2010\Projects\arcadegame\arcadegame\obj\x86\Debug\arcadegame.Formarcade.resources
+c:\users\cyrus\documents\visual studio 2010\Projects\arcadegame\arcadegame\obj\x86\Debug\arcadegame.Maze2.resources
+c:\users\cyrus\documents\visual studio 2010\Projects\arcadegame\arcadegame\obj\x86\Debug\arcadegame.Minion.resources
+c:\users\cyrus\documents\visual studio 2010\Projects\arcadegame\arcadegame\obj\x86\Debug\arcadegame.Scary.resources
+c:\users\cyrus\documents\visual studio 2010\Projects\arcadegame\arcadegame\obj\x86\Debug\arcadegame.Formcar.resources
