@@ -1,0 +1,10 @@
+C:\Users\Cyrus\Documents\Visual Studio 2010\Projects\EnrollementSYSTEM\EnrollementSYSTEM\bin\Debug\EnrollementSYSTEM.exe
+C:\Users\Cyrus\Documents\Visual Studio 2010\Projects\EnrollementSYSTEM\EnrollementSYSTEM\bin\Debug\EnrollementSYSTEM.pdb
+C:\Users\Cyrus\Documents\Visual Studio 2010\Projects\EnrollementSYSTEM\EnrollementSYSTEM\bin\Debug\EnrollementSYSTEM.xml
+C:\Users\Cyrus\Documents\Visual Studio 2010\Projects\EnrollementSYSTEM\EnrollementSYSTEM\obj\x86\Debug\EnrollementSYSTEM.Form1.resources
+C:\Users\Cyrus\Documents\Visual Studio 2010\Projects\EnrollementSYSTEM\EnrollementSYSTEM\obj\x86\Debug\EnrollementSYSTEM.Resources.resources
+C:\Users\Cyrus\Documents\Visual Studio 2010\Projects\EnrollementSYSTEM\EnrollementSYSTEM\obj\x86\Debug\EnrollementSYSTEM.vbproj.GenerateResource.Cache
+C:\Users\Cyrus\Documents\Visual Studio 2010\Projects\EnrollementSYSTEM\EnrollementSYSTEM\obj\x86\Debug\EnrollementSYSTEM.exe
+C:\Users\Cyrus\Documents\Visual Studio 2010\Projects\EnrollementSYSTEM\EnrollementSYSTEM\obj\x86\Debug\EnrollementSYSTEM.xml
+C:\Users\Cyrus\Documents\Visual Studio 2010\Projects\EnrollementSYSTEM\EnrollementSYSTEM\obj\x86\Debug\EnrollementSYSTEM.pdb
+C:\Users\Cyrus\documents\visual studio 2010\Projects\EnrollementSYSTEM\EnrollementSYSTEM\obj\x86\Debug\EnrollementSYSTEM.Form2.resources

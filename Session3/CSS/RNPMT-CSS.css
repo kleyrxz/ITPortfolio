@@ -1,0 +1,220 @@
+* {
+    user-select: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Default background color */
+}
+
+.title-topbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 10px;
+}
+
+.back-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 15px;
+}
+
+.back-button button {
+    background-color: #46a81f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    width: 100px;
+}
+
+/* Normal styles */
+.session-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container {
+    background-color: white;
+    border: 1px solid black;
+    position: relative;
+    width: 650px;
+    max-width: 90%;
+    height: calc(100vh - 20px); /* Adjusted height to fit viewport */
+    overflow: hidden auto;
+}
+
+.top-bar {
+    width: 100%;
+    height: 10%;
+    background-color: black;
+    top:-3%;
+}
+
+.session-container .container .top-bar label {
+    color: white;
+    font-size: 16px;
+    align-items: center;
+    margin-top: 50%;
+    justify-content: center;
+}
+.date-range {
+    display: flex;
+    align-items: center;
+}
+
+.date-range label {
+    margin-right: 10px;
+}
+
+.date-range input[type="date"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Styles for input boxes */
+input[type="text"],
+input[type="number"],
+input[type="date"],
+textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+}
+
+/* Styles for select options */
+select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+/* Style for submit button */
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Style for cancel button */
+input[type="button"] {
+  padding: 10px 20px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Optional: Adjust the width of the date inputs */
+#start-date, #end-date {
+    width: 150px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+#search-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 5px;
+    flex: 1;
+}
+
+#up-down-button1 {
+    margin-left: 10px;
+    text-align: center;
+    background-color: white;
+    border: gray solid 1px;
+    border-radius: 30px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#up-down-button2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 5px;
+    text-align: center;
+    background-color: white;
+    border: gray solid 1px;
+    border-radius: 25px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+#up-down-button1:active, #up-down-button2:active {
+    background-color: gray;
+}
+
+#taskNameSelect, #adding-assets {
+    margin-left: 50px;
+    width: 83%;
+}
+
+#assetNameSelect, #schedule-model {
+    margin-left: 50px;
+    width: 67%;
+}
+
+#schedule-fields {
+    background-color: white !important;
+    position: absolute;
+    border:1px solid black;
+    width:300px;
+    margin-left:100px;
+}
+
+#search-button {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.item1 { grid-area: ew; }
+.item2 { grid-area: as; }
+
+.side2side, .side2side2 {
+    display: grid;
+    grid-template-areas: 'ew as as';
+}
+
+.side2side #serial-number, #serial-number:focus, #serial-number{
+    border: 0;
+    outline: none;
+    cursor: default;
+}
+
+.footer-buttons {
+    position: absolute;
+    right: 0;
+    margin-left: 10px;
+    margin-right: 20px;
+}

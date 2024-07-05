@@ -1,0 +1,171 @@
+* {
+    user-select: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Default background color */
+    height: 100vh; /* Set body height to 100% of viewport height */
+    margin: 0; /* Remove default margin */
+}
+
+h1 {
+    color: blue;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Normal styles */
+.session-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container {
+    background-color: white;
+    border: 1px solid black;
+    position: relative;
+    width: 800px;
+    max-width: 90%;
+    height: calc(100vh - 20px); /* Adjusted height to fit viewport */
+    overflow: hidden auto;
+}
+
+.apply-filters {
+    position: sticky;
+    display: grid;
+    grid-template-areas: 'ew as hl';
+    top: 0;
+    background-color: white;
+    z-index: 1;
+    padding: 10px;
+    width: calc(100% - 20px); /* Adjusted width to account for padding */
+    margin: 0 auto; /* Center the filters horizontally */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+}
+
+select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 150px;
+  }
+  
+  select:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+  }
+
+.active-date-css {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.active-date-css input[type="date"] {
+    margin-right:20px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Optional: Adjust the width of the date inputs */
+#activedate-options {
+    cursor: pointer;
+    width: 150px;
+    margin-left: 10px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+#search-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 5px;
+    flex: 1;
+}
+
+#search-button {
+    padding: 8px 12px;
+    background-color: #10b04d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-btn-container {
+    position: fixed; /* Position relative to viewport */
+    right: 20px; /* Adjust as needed */
+    bottom: 20px; /* Adjust as needed */
+    z-index: 999; /* Ensure it's above other content */
+}
+
+#add-asset {
+    border-radius: 40px; 
+    background-color: #007bff;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    height: 60px;
+    width: 60px;
+    color: #fff;
+    font: 30px bolder Arial, Helvetica, sans-serif;
+}
+
+.item1 { grid-area: ew; padding: 8px; }
+.item2 { grid-area: as; padding: 8px; }
+.item3 { grid-area: hl; padding: 8px; }
+
+.item3 button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 150px;
+}
+
+/* CSS for run-based active tasks */
+.run-based-task {
+    color: black; /* Color for unprocessed run-based active tasks */
+}
+
+.run-based-task-processed {
+    color: grey; /* Color for processed run-based active tasks */
+}
+
+/* CSS for time-based active tasks */
+.time-based-task-past-due {
+    color: red; /* Color for time-based active tasks that are past due */
+}
+
+.time-based-task-past-due-processed {
+    color: orange; /* Color for processed time-based active tasks that are past due */
+}
+
+.time-based-task-active-date {
+    color: black; /* Color for time-based active tasks due on active date */
+}
+
+.time-based-task-active-date-processed {
+    color: green; /* Color for processed time-based active tasks due on active date */
+}
+
+.time-based-task-four-day-period {
+    color: purple; /* Color for time-based active tasks due within four days after active date */
+}
+
+.time-based-task-four-day-period-processed {
+    color: black; /* Color for processed time-based active tasks due within four days after active date */
+}

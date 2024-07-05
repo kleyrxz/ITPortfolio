@@ -1,0 +1,155 @@
+* {
+    user-select: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Default background color */
+    height: 100vh; /* Set body height to 100% of viewport height */
+    margin: 0; /* Remove default margin */
+}
+
+.title-container {
+    height: 30px;
+    width: 100%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: none;
+    border-right: none;
+    display: flex;
+    margin-top: -1px;
+}
+.container {
+    height: 400px;
+    width: 950px;
+    background-color: white;
+    border: 1px solid black;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.inside-container1 {
+    height: 50px;
+    width: 870px;
+    background-color: white;
+    position: fixed;
+    top: 17%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.inside-container1 input {
+    border: 0;
+    outline: none;
+    cursor: default;
+    margin-left: -20px;
+}
+
+.inside-container2 {
+    height: 200px;
+    width: 850px;
+    background-color: white;
+    border: 1px solid black;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 173px;
+    overflow-y: auto; /* Add scrollbar for vertical overflow */
+}
+
+.inside-container3 {
+    height: 200px;
+    width: 850px;
+    background-color: white;
+    border: 1px solid black;
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top:173px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1; /* Ensure thead appears above tbody when scrolling */
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid black;
+    text-align: left;
+}
+
+
+tr.selected {
+    background-color: lightblue;
+}
+/* Style for the select element */
+select {
+    padding: 4px; /* Add padding for better appearance */
+    font-size: 12px; /* Adjust font size */
+    border: 1px solid #ccc; /* Add border */
+    background-color: #fff; /* Set background color */
+    color: #333; /* Set text color */
+    width: 280px;
+}
+
+/* Style for the dropdown menu */
+select option {
+    padding: 8px; /* Add padding for better appearance */
+    font-size: 12px; /* Adjust font size */
+    background-color: #fff; /* Set background color */
+    color: #333; /* Set text color */
+}
+
+textarea {
+    width: 675px; /* Set the width */
+    height: 80px; /* Set the height */
+    resize: none; /* Disable resizing */
+    margin-left: 108px;
+}
+
+input[type="date"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 200px;
+    /* Additional styles as needed */
+}
+
+
+.hidden {
+    display: none;
+}
+
+label {
+    font-weight: bold;
+}
+
+#cancel {
+    display: inline-block;
+    padding: 7px 17px;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-top: 200px;
+    width: 150px;
+}
+
+#cancel:hover {
+    background-color: black;
+    color: white;
+}

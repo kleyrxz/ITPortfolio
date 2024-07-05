@@ -1,0 +1,110 @@
+* {
+    user-select: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    /* Default background color */
+}
+
+
+p {
+    font-size: 16px;
+}
+
+/* Normal styles */
+.Porttrait .container {
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    width: 470px;
+    /* Default width */
+    height: 98%;
+    display: none;
+}
+
+/* Landscape div to hide */
+.landscape {
+    display: block;
+    /* Set the default display property */
+}
+
+.landscape .container1 {
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    width: 98%;
+    /* Default width */
+    height: 98%;
+    display: block;
+}
+
+table {
+    width: 100%;
+}
+
+
+
+
+.date-range {
+    display: flex;
+    align-items: center;
+
+}
+
+.date-range label {
+    margin-right: 10px;
+}
+
+.date-range input[type="date"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Optional: Adjust the width of the date inputs */
+#start-date,
+#end-date {
+    width: 150px;
+}
+
+.search-container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 80% 15%;
+    position: relative;
+    left: 10px;
+}
+
+.search-container input {
+    padding: 8px 12px;
+    border: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 90%;
+    border-bottom: 2px solid black;
+    transition: border-color 0.3s ease;
+}
+
+
+input {
+    border: none;
+    outline: none;
+
+}
+
+input:focus {
+    border-bottom: 3px solid green;
+    /* Change color on focus */
+}
+
+
+
+.button:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+
+
